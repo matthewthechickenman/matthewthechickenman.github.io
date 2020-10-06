@@ -1,0 +1,24 @@
+button {
+	border-radius: 12px;
+	padding: 5px 10px;
+	font-size: 20px;
+	background-color: #ffffff00;
+	border: 2px solid #940b0b;
+	transition-duration: 0.4s;
+	width: 30%
+}
+
+button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	background-color: #940b0b;
+	color: white;
+	width: 31%;
+}
+
+button.large {
+	width: 75%;
+}
+
+button.large:hover {
+	width: 76%;
+}

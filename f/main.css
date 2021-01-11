@@ -47,8 +47,11 @@ body, html {
     background-color: white;
     padding: 1%;
     width: 33%;
+    text-align: center;
+    font-size: medium
 }
 
-.project {
-    text-align: center;
+.project .title {
+    font-size: large
 }
+

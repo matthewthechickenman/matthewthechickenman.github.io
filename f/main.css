@@ -43,14 +43,13 @@ body, html {
     justify-content: space-around;
     padding-left: 3%;
     padding-right: 3%;
-    height: 26%;
+    height: 50%;
     overflow: auto;
 }
 
 .project {
     background-color: white;
     padding: 3%;
-    height: 25%;
     text-align: center;
     font-size: medium;
     border-radius: 5%;

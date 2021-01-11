@@ -10,7 +10,7 @@
                 var year = (new Date()).getFullYear()
                 $("#copyright").text("© " + year + " Matthew S.")
             })
-            var fetch = $.ajax({url: "./f/projects.json",method: "GET"}).then(f => f)
+            var fetch = $.ajax({url: "./f/projects.json",method: "GET"}).then(f => f).then(f => f)
             console.log(fetch)
             fetch.forEach(g => {
                 $('.projects').append(`<div class="project"><p class="title">${g.name}</p></div>`)

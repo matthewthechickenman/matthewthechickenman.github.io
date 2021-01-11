@@ -13,7 +13,7 @@
             $.ajax({url: "./f/projects.json",method: "GET"}).then(fetch => {
                 console.log(fetch)
                 fetch.forEach(g => {
-                    const frameworks = g.frameworks.map(g => `${g}, `).trim(0, 2)
+                    const frameworks = g.frameworks.map(g => `${g}, `)
                     $('.projects').append(`<div class="project"><p class="title">${g.name}</p><br><p class="description">${g.description}</p><br><br><p>Frameworks</p><br><p class="frameworks>${frameworks}</p></div>`)
                 })
             })

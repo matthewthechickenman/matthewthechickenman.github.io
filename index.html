@@ -11,11 +11,15 @@
                 $("#copyright").text("© " + year + " Matthew S.")
             })
             var fetch = $.ajax({url: "./f/projects.json",method: "GET"}).then(f => f)
-            console.log(fetch)
+            fetch.forEach(g => {
+                $('.projects').append(`<div class="project"><p class="title">${g.name}</p></div>`)
+            })
         </script>
     </head>
     <body>
-        <div class="projects"></div>
+        <div class="projects">
+
+        </div>
         <div class="footer">
             <div class="flex-footer">
                 <a href="https://links.animalbot.xyz/discord">Discord</a>

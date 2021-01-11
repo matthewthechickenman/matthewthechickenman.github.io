@@ -45,8 +45,7 @@ body, html {
 
 .project {
     background-color: white;
-    margin: 1%;
-    padding: 1%;
+    padding: 5%;
 }
 
 .project .title {

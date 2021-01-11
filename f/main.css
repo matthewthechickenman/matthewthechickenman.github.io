@@ -45,10 +45,11 @@ body, html {
 
 .project {
     background-color: white;
-    padding: 1%;
+    padding: 3%;
     width: 33%;
     text-align: center;
-    font-size: medium
+    font-size: medium;
+    border-radius: 5%;
 }
 
 .project .title {

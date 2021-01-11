@@ -40,13 +40,11 @@ body, html {
     min-height: 20%;
     display: flex;
     flex-direction: row;
-    padding: 3%;
     margin: 3%;
 }
 
 .project {
     background-color: white;
-    padding: 5%;
 }
 
 .project .title {

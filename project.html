@@ -7,12 +7,12 @@
         <script src="/f/jquery.js"></script>
         <script>
             var project
-            $(function(){var e=(new Date).getFullYear();$("#copyright").text("© "+e+" Matthew S.")});const short=new URL(location.href).searchParams.get("id");$.ajax({url:"/f/projects.json",method:"GET"}).then(e=>{project=e.find(e=>e.short==short)||e[0];const g=project;var libs=g.libraries.map(e=>`${e}, `).join("");libs=libs.substr(0,libs.length-2),$(".projects").append(`<div class="project">\n<img src=${g.image} alt=${g.name}>\n<p class="title"><a href=${g.link}>${g.name}</a> - ${g.lang}</p>\n <br><p class="description">${g.description}</p>\n<br><p>Libraries</p>\n<p class="libraries">${libs}</p>\n</div>`);});
+            $(function(){var e=(new Date).getFullYear();$("#copyright").text("© "+e+" Matthew S.")});const short=new URL(location.href).searchParams.get("id");$.ajax({url:"/f/projects.json",method:"GET"}).then(e=>{project=e.find(e=>e.short==short)||e[0];const g=project;var libs=g.libraries.map(e=>`${e}, `).join("");libs=libs.substr(0,libs.length-2),$(".pr").append(`<div class="project">\n<img src=${g.image} alt=${g.name}>\n<p class="title"><a href=${g.link}>${g.name}</a> - ${g.lang}</p>\n <br><p class="description">${g.description}</p>\n<br><p>Libraries</p>\n<p class="libraries">${libs}</p>\n</div>`);});
             console.log(project)
         </script>
     </head>
     <body>
-        <div class="projects">
+        <div class="pr">
 
         </div>
         <br><br><br><br>

@@ -6,7 +6,7 @@
         <title>Matthew</title>
         <script src="/f/jquery.js"></script>
         <script>
-            $(function(){var a=(new Date).getFullYear();$("#copyright").text("© "+a+" Matthew S.")}),$.ajax({url:"./f/projects.json",method:"GET"}).then(a=>{a.forEach(a=>{var e=a.libraries.map(a=>`${a}, `).join("");e=e.substr(0,e.length-2),$(".pr").append(`<div class="project">\n<img src=${a.image} alt=${a.name}>\n<p class="title"><a href=${a.link}>${a.name}</a> - ${a.lang}</p>\n<br><p class="description">${a.description}</p>\n<br><p>Libraries</p>\n<p class="libraries">${e}</p>\n </div>`)})});
+            $(function(){var a=(new Date).getFullYear();$("#copyright").text("© "+a+" Matthew S.")}),$.ajax({url:"./f/projects.json",method:"GET"}).then(a=>{a.forEach(a=>{var e=a.libraries.map(a=>`${a}, `).join("");e=e.substr(0,e.length-2),$(".projects").append(`<div class="project">\n<img src=${a.image} alt=${a.name}>\n<p class="title"><a href=${a.link}>${a.name}</a> - ${a.lang}</p>\n<br><p class="description">${a.description}</p>\n<br><p>Libraries</p>\n<p class="libraries">${e}</p>\n </div>`)})});
         </script>
     </head>
     <body>
@@ -16,7 +16,7 @@
             <p>I like backend, but frontend's good too, I guess</p>
         </div>
         <br><br>
-        <div class="pr">
+        <div class="projects">
 
         </div>
         <br><br><br><br>

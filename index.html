@@ -16,7 +16,7 @@
                     const libs = g.libraries.map(g => `${g}, `).join("").trim(0, 2)
                     $('.projects').append(`<div class="project">
                         <img src=${g.image} alt=${g.name}>
-                        <p class="title">${g.name}</p>
+                        <p class="title"><a href=${g.link}>${g.name}</a> - ${g.lang}</p>
                         <br><p class="description">${g.description}</p>
                         <br><p>Libraries</p>
                         <br><p class="libraries">${libs}</p>

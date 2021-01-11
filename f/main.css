@@ -1,0 +1,41 @@
+#copyright {
+    text-align: center;
+}
+
+body {
+    background-color: grey;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body, html {
+    margin: 0
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    position: fixed;
+    bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+.flex-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.projects {
+    background-color:rgb(70, 70, 70);
+    min-width: 100%;
+    min-height: 250px;
+}

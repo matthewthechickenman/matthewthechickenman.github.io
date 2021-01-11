@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta name="og:title" content="matthewthechickenman">
+        <meta name="og:description" content="A Scottish dude with some chickens">
+        <link rel="stylesheet" href="./f/main.css">
+        <title>Matthew</title>
+        <script src="./f/jquery.js"></script>
+        <script>
+            $(function() {
+                var year = (new Date()).getFullYear()
+                $("#copyright").text("© " + year + " Matthew S.")
+            })
+            $.ajax({url: "./f/projects.json",method: "GET"}).then(console.log)
+        </script>
+    </head>
+    <body>
+        <div class="projects"></div>
+        <div class="footer">
+            <div class="flex-footer">
+                <a href="https://links.animalbot.xyz/discord">Discord</a>
+                <a href="https://github.com/matthewthechickenman">GitHub</a>
+                <a href="mailto:me@animalbot.xyz">Email</a>
+            </div>
+            <p id="copyright"></p>
+        </div>
+    </body>
+</html>

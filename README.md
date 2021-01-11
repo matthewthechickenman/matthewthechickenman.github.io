@@ -1,2 +1,5 @@
-# matthewthechickenman.github.io
-basic portfolio (coming soon)
+# matthew
+coming soon
+
+## contact me on discord
+Matthew.#9014

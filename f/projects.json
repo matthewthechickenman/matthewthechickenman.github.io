@@ -1,7 +1,42 @@
 [
     {
         "name": "Animal Bot",
-        "description": "A discord bot written in discord.js-light",
-        "frameworks": ["discord.js-light"]
+        "description": "An economy, fun and music discord bot written in discord.js-light",
+        "libraries": ["discord.js-light", "canvas", "erela.js", "mongodb"],
+        "link": "https://top.gg/bot/716061781172158464",
+        "lang": "javascript",
+        "image": "./f/i/ab.png"
+    },
+    {
+        "name": "Ourcord",
+        "description": "A discord library that exposes low level API functions and dedicates itself to speed",
+        "libraries": ["ws", "chalk", "events", "pako"],
+        "link": "https://github.com/ourpalace/ourcord",
+        "lang": "typescript",
+        "image": "./f/i/oc.png"
+    },
+    {
+        "name": "DSL Vote Listener",
+        "description": "A discord bot written in discord.js-light designed for top.gg server webhooks",
+        "libraries": ["discord.js-light", "express", "mongodb", "fs"],
+        "link": "https://top.gg/bot/753688662449061919",
+        "lang": "javascript",
+        "image": "./f/i/dsl.png"
+    },
+    {
+        "name": "Animal Bot Site/API",
+        "description": "A site using express and ejs",
+        "libraries": ["express", "ejs", "canvas"],
+        "link": "https://animalbot.xyz",
+        "lang": "javascript",
+        "image": "./f/i/ab.png"
+    },
+    {
+        "name": "Music Boat",
+        "description": "A music bot using erela.js and discord.js-light",
+        "libraries": ["erela.js", "express", "canvas"],
+        "link": "https://top.gg/bot/735963752259911752",
+        "lang": "javascript",
+        "image": "./f/i/mb.png"
     }
 ]

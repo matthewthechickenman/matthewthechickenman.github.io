@@ -14,7 +14,13 @@
                 console.log(fetch)
                 fetch.forEach(g => {
                     const frameworks = g.frameworks.map(g => `${g}, `).join("").trim(0, 2)
-                    $('.projects').append(`<div class="project"><p class="title">${g.name}</p><br><p class="description">${g.description}</p><br><br><p>Frameworks</p><br><p class="frameworks>${frameworks}</p></div>`)
+                    $('.projects').append(`<div class="project">
+                        <img src=${g.image} alt=${g.name}>
+                        <p class="title">${g.name}</p>
+                        <br><p class="description">${g.description}</p>
+                        <br><p>Frameworks</p>
+                        <br><p class="frameworks>${frameworks}</p>
+                        </div>`)
                 })
             })
         </script>
@@ -29,6 +35,7 @@
                 <a href="https://github.com/matthewthechickenman">GitHub</a>
                 <a href="mailto:me@animalbot.xyz">Email</a>
             </div>
+            <p>Font used: <a href="https://fonts.google.com/specimen/Montserrat">Montserrat</a></p>
             <p id="copyright"></p>
         </div>
     </body>

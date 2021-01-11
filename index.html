@@ -8,7 +8,8 @@
         <script>
 $(function(){var year=(new Date()).getFullYear()
 $("#copyright").text("© "+year+" Matthew S.")})
-$.ajax({url:"./f/projects.json",method:"GET"}).then(fetch=>{fetch.forEach(g=>{const libs=g.libraries.map(g=>`${g}, `).join("").slice(0,2)
+$.ajax({url:"./f/projects.json",method:"GET"}).then(fetch=>{fetch.forEach(g=>{var libs=g.libraries.map(g=>`${g}, `).join("")
+libs = libs.substr(0, libs.length-2)
 $('.projects').append(`<div class="project">
                         <img src=${g.image} alt=${g.name}>
                         <p class="title"><a href=${g.link}>${g.name}</a> - ${g.lang}</p>

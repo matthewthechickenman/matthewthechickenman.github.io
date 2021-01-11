@@ -10,7 +10,8 @@
                 var year = (new Date()).getFullYear()
                 $("#copyright").text("© " + year + " Matthew S.")
             })
-            $.ajax({url: "./f/projects.json",method: "GET"}).then(console.log)
+            var fetch = $.ajax({url: "./f/projects.json",method: "GET"}).then(f => f)
+            console.log(fetch)
         </script>
     </head>
     <body>

@@ -5,7 +5,8 @@
         "libraries": ["discord.js-light", "canvas", "erela.js", "mongodb"],
         "link": "https://top.gg/bot/716061781172158464",
         "lang": "javascript",
-        "image": "./f/i/ab.png"
+        "image": "/f/i/ab.png",
+        "short": "ab"
     },
     {
         "name": "Ourcord",
@@ -13,7 +14,8 @@
         "libraries": ["ws", "chalk", "events", "pako"],
         "link": "https://github.com/ourpalace/ourcord",
         "lang": "typescript",
-        "image": "./f/i/oc.png"
+        "image": "/f/i/oc.png",
+        "short": "oc"
     },
     {
         "name": "DSL Vote Listener",
@@ -21,7 +23,8 @@
         "libraries": ["discord.js-light", "express", "mongodb", "fs"],
         "link": "https://top.gg/bot/753688662449061919",
         "lang": "javascript",
-        "image": "./f/i/dsl.png"
+        "image": "/f/i/dsl.png",
+        "short": "dsl"
     },
     {
         "name": "Animal Bot Site/API",
@@ -29,7 +32,8 @@
         "libraries": ["express", "ejs", "canvas"],
         "link": "https://animalbot.xyz",
         "lang": "javascript",
-        "image": "./f/i/ab.png"
+        "image": "/f/i/ab.png",
+        "short": "absite"
     },
     {
         "name": "Music Boat",
@@ -37,6 +41,7 @@
         "libraries": ["erela.js", "express", "canvas"],
         "link": "https://top.gg/bot/735963752259911752",
         "lang": "javascript",
-        "image": "./f/i/mb.png"
+        "image": "/f/i/mb.png",
+        "short": "mb"
     }
 ]

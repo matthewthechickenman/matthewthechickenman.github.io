@@ -43,3 +43,7 @@ body, html {
 .project {
     background-color: white;
 }
+
+.project .title {
+    text-align: center;
+}

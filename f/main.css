@@ -59,3 +59,7 @@ body, html {
     font-size: large
 }
 
+.project img {
+    size: 10%;
+}
+

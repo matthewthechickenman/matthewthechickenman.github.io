@@ -1,6 +1,7 @@
 [
     {
         "name": "Animal Bot",
-        "description": "A discord bot written in discord.js-light"
+        "description": "A discord bot written in discord.js-light",
+        "frameworks": ["discord.js-light"]
     }
 ]

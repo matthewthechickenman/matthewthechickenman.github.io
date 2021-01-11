@@ -11,7 +11,6 @@
                 $("#copyright").text("© " + year + " Matthew S.")
             })
             $.ajax({url: "./f/projects.json",method: "GET"}).then(fetch => {
-                console.log(fetch)
                 fetch.forEach(g => {
                     const libs = g.libraries.map(g => `${g}, `).join("").trim(0, 2)
                     $('.projects').append(`<div class="project">

@@ -41,8 +41,6 @@ body, html {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-left: 3%;
-    padding-right: 3%;
     height: 50%;
     overflow-x: auto;
 }

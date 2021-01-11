@@ -35,10 +35,9 @@ body, html {
 
 .projects {
     background-color:rgb(70, 70, 70);
-    min-width: 100%;
-    min-height: 20%;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     padding-left: 3%;
     padding-right: 3%;
 }
@@ -46,7 +45,6 @@ body, html {
 .project {
     background-color: white;
     padding: 3%;
-    width: 33%;
     text-align: center;
     font-size: medium;
     border-radius: 5%;

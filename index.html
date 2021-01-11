@@ -6,25 +6,24 @@
         <title>Matthew</title>
         <script src="./f/jquery.js"></script>
         <script>
-            $(function() {
-                var year = (new Date()).getFullYear()
-                $("#copyright").text("© " + year + " Matthew S.")
-            })
-            $.ajax({url: "./f/projects.json",method: "GET"}).then(fetch => {
-                fetch.forEach(g => {
-                    const libs = g.libraries.map(g => `${g}, `).join("").trim(0, 2)
-                    $('.projects').append(`<div class="project">
+$(function(){var year=(new Date()).getFullYear()
+$("#copyright").text("© "+year+" Matthew S.")})
+$.ajax({url:"./f/projects.json",method:"GET"}).then(fetch=>{fetch.forEach(g=>{const libs=g.libraries.map(g=>`${g}, `).join("").trim(0,2)
+$('.projects').append(`<div class="project">
                         <img src=${g.image} alt=${g.name}>
                         <p class="title"><a href=${g.link}>${g.name}</a> - ${g.lang}</p>
                         <br><p class="description">${g.description}</p>
                         <br><p>Libraries</p>
                         <br><p class="libraries">${libs}</p>
-                        </div>`)
-                })
-            })
+                        </div>`)})})
         </script>
     </head>
     <body>
+        <div class="me">
+            <img src="./f/i/chicken.png" alt="chicken">
+            <h1>Matthew</h1>
+            <p>I like backend, but frontend's good too, I guess</p>
+        </div>
         <div class="projects">
 
         </div>

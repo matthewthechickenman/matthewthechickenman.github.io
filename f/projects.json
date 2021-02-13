@@ -1,7 +1,7 @@
 [
     {
         "name": "Animal Bot",
-        "description": "An economy, fun and music discord bot written in discord.js-light",
+        "description": "A fun and music discord bot written in discord.js-light",
         "libraries": ["discord.js-light", "canvas", "erela.js", "mongodb"],
         "link": "https://top.gg/bot/716061781172158464",
         "lang": "javascript",

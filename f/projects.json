@@ -9,13 +9,13 @@
         "short": "ab"
     },
     {
-        "name": "Ourcord",
-        "description": "A discord library that exposes low level API functions and dedicates itself to speed",
-        "libraries": ["ws", "chalk", "events", "pako"],
-        "link": "https://github.com/ourpalace/ourcord",
-        "lang": "typescript",
-        "image": "/f/i/oc.png",
-        "short": "oc"
+        "name": "Snppr",
+        "description": "A URL shortener based on a bot and dashboard system",
+        "libraries": ["NginX", "MongoDB", "discord.js-light", "Express"],
+        "link": "https://snpr.cc",
+        "lang": "javascript",
+        "image": "/f/i/url.png",
+        "short": "url"
     },
     {
         "name": "DSL Vote Listener",

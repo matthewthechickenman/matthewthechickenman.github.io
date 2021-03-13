@@ -44,8 +44,7 @@ h1 {
     background-color: grey;
     display: flex;
     flex-direction: row;
-    overflox-x: auto;
-    flex-wrap: wrap;
+    overflow-x: auto;
     justify-content: center;
 }
 .project {

@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat + Alternates&family=Montserrat:wght@500&display=swap);
-p {
+
+p, h4, h6, h1, h2 {
     font-family: Montserrat, sans-serif;
     text-align: center;
 }
@@ -25,9 +26,6 @@ html {
 }
 .footer a {
     color: #fff;
-    font-family: Montserrat, sans-serif;
-}
-h1 {
     font-family: Montserrat, sans-serif;
 }
 .flex-footer {
@@ -60,7 +58,14 @@ h1 {
 .project .title {
     font-size: medium;
 }
-img {
+.text {  
+    width: 50%;
+}
+button {
+    width:20%;
+    height:10%;
+}
+img#pfp {
     height: 128px;
     width: 128px;
     border-radius: 50%;

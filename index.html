@@ -9,14 +9,15 @@
         <title>Matthew</title>
         <script src="/f/jquery.js"></script>
         <script>
-            $(function(){var a=(new Date).getFullYear();$("#copyright").text("© 2020-"+a+" Matthew S.")}),$.ajax({url:"./f/projects.json",method:"GET"}).then(a=>{a.forEach(a=>{var e=a.libraries.map(a=>`${a}, `).join("");e=e.substr(0,e.length-2),$(".projects").append(`<div class="project">\n<img src=${a.image} alt=${a.name}>\n<p class="title"><a href="/project?id=${a.short}">${a.name}</a> - ${a.lang}</p>\n<br><p class="description">${a.description}</p></div>`)})});
+            $(function(){var a=(new Date).getFullYear();$("#copyright").text("© 2020-"+a+" Matthew S.")}),$.ajax({url:"./f/projects.json",method:"GET"}).then(a=>{a.forEach(a=>{var e=a.libraries.map(a=>`${a}, `).join("");e=e.substr(0,e.length-2),$(".projects").append(`<div class="project">\n<img id="pfp" src=${a.image} alt=${a.name}>\n<p class="title"><a href="/project?id=${a.short}">${a.name}</a> - ${a.lang}</p>\n<br><p class="description">${a.description}</p></div>`)})});
         </script>
     </head>
     <body>
         <div class="me">
-            <img src="/f/i/chicken.png" alt="chicken">
+            <img id="pfp" src="/f/i/chicken.png" alt="chicken">
             <h1>Matthew</h1>
             <p>(Matthew.#9014)</p>
+            <h4>Looking for hosting? <a href="/hosting.html">Click here.</a></h4>
         </div>
         <br><br>
         <p>Click a link below to be taken to more information</p>
@@ -29,10 +30,9 @@
                 <a href="https://links.animalbot.xyz/discord">Discord</a>
                 <a href="https://github.com/matthewthechickenman">GitHub</a>
                 <a href="mailto:me@animalbot.xyz">Email</a>
+                <a href="https://github.com/matthewthechickenman/matthewthechickenman.github.io/">Source code</a> 
             </div>
-            <p>Font used: <a href="https://fonts.google.com/specimen/Montserrat">Montserrat</a></p>
-            <p>This site and its <a href="https://github.com/matthewthechickenman/matthewthechickenman.github.io/">source code</a> is licensed under the MIT license</p>
-            <p id="copyright"></p>
+            <h4 id="copyright"></p>
         </div>
     </body>
 </html>
